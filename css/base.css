@@ -22,3 +22,19 @@ ul{
     margin: 0;             /* Remove as margens */
     font-size: 22px;
 }
+
+/* Estilos para os elementos de formulário */
+input, select, textarea, label, legend{
+  font-size: 21px;
+}
+.texto-genero {
+    font-size: 23px;
+}
+select {
+    width: 200px;
+}
+select option {
+    max-width: 100px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
