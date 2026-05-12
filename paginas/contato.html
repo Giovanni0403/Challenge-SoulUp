@@ -45,10 +45,10 @@
           <input id="idSenha" type="password" name="senha" required autocomplete="off"><br><br>
 
           <label for="idComercial">Telefone:</label>
-          <input id="idComercial" type="tel" name="tcomercial" required autocomplete="off"><br><br>
+          <input id="idComercial" type="tel" name="tcomercial" required  ><br><br>
 
           <label for="estado">Estado:</label>
-          <select id="estado" name="estado" size="1" required>
+          <select id="estado" name="estado" size="1" required autocomplete="off">
               <option value="">Selecione...</option>
               <option value="">Exterior</option>
               <option value="AC">Acre</option>
@@ -81,7 +81,7 @@
           </select><br><br>
 
           <label for="idNasc">Data de Nascimento:</label>
-          <input id="idNasc" type="date" name="dnasc" required><br><br>
+          <input id="idNasc" type="date" name="dnasc" required autocomplete="off"><br><br>
 
           <label>Gênero:</label><br>
           <input type="radio" name="genero" value="masculino"> <label class="texto-genero">Masculino</label>
@@ -89,12 +89,12 @@
           <input type="radio" name="genero" value="outro"> <label class="texto-genero">Outro</label><br><br>
 
           <label for="cep">CEP:</label>
-          <input id="cep" type="text" name="cep" maxlength="8" placeholder="00000-000" onblur="buscarCep(this.value)"><br><br>
+          <input id="cep" type="text" name="cep" maxlength="8" placeholder="00000-000" onblur="buscarCep(this.value)" autocomplete="off"><br><br>
 
           <label for="endereco">Endereço:</label>
-          <input id="endereco" type="text" name="endereco"><br><br>
+          <input id="endereco" type="text" name="endereco" autocomplete="off"><br><br>
           <label for="cidade">Cidade:</label>
-          <input id="cidade" type="text" name="cidade"><br><br>
+          <input id="cidade" type="text" name="cidade" autocomplete="off"><br><br>
 
           <label for="satisfacao">Nível de Satisfação:</label>
           <input id="satisfacao" type="range" name="satisfacao" min="1" max="5">
