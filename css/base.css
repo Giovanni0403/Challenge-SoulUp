@@ -3,7 +3,7 @@
     font-size: var(--titulo-main);
     color: var(--text-title);
     text-transform: uppercase;
-    font-size: 5.0rem;
+    font-size: 4.0rem;
     color: rgb(0, 0, 0);
 }
 footer{
@@ -37,4 +37,18 @@ select option {
     max-width: 100px;
     overflow: hidden;
     text-overflow: ellipsis;
+}
+
+.informacoes-contato {
+    display: flex;
+    gap: 250px;
+}
+
+.fundo__title_h2 {
+    text-align: center;
+    font-size: var(--titulo-main);
+    color: var(--text-title);
+    text-transform: uppercase;
+    font-size: 2.0rem;
+    color: rgb(0, 0, 0);
 }

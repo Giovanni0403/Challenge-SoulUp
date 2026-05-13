@@ -41,9 +41,6 @@
           <label for="idEmail">E-mail:</label>
           <input id="idEmail" type="email" name="email" required autocomplete="off"><br><br>
 
-          <label for="idSenha">Senha:</label>
-          <input id="idSenha" type="password" name="senha" required autocomplete="off"><br><br>
-
           <label for="idComercial">Telefone:</label>
           <input id="idComercial" type="tel" name="tcomercial" required  ><br><br>
 
@@ -89,7 +86,7 @@
           <input type="radio" name="genero" value="outro"> <label class="texto-genero">Outro</label><br><br>
 
           <label for="cep">CEP:</label>
-          <input id="cep" type="text" name="cep" maxlength="8" placeholder="00000-000" onblur="buscarCep(this.value)" autocomplete="off"><br><br>
+          <input id="cep" type="text" name="cep" maxlength="9" placeholder="00000-000" onblur="buscarCep(this.value)" autocomplete="off"><br><br>
 
           <label for="endereco">Endereço:</label>
           <input id="endereco" type="text" name="endereco" autocomplete="off"><br><br>
@@ -101,16 +98,40 @@
           <span id="valorSatisfacao">5</span><br><br>
 
           <label for="mensagem">Como posso te ajudar?</label><br>
-          <textarea id="mensagem" name="mensagem" rows="5" cols="40" placeholder="Digite sua mensagem aqui..."></textarea><br><br>
+          <textarea id="mensagem" name="mensagem" rows="7" cols="130" placeholder="Digite sua mensagem aqui..."></textarea><br><br>
 
           <input type="reset" value="Limpar">
           <input type="submit" value="Enviar">
 
         </fieldset>
+        <h2 class="fundo__title_h2">Informações para contato</h2>
+        <div class="informacoes-contato">
+          <div>
+            <p>Nome: Giovanni Lopez Zavam</p>
+            <p>Telefone: (11) 99554-3365</p>
+            <p>Email: rm571403@fiap.com.br</p>
+          </div>
+
+          <div>
+            <p>Nome: Murilo  Martins de Campos</p>
+            <p>Telefone: (11) 99760-0533</p>
+            <p>Email: rm572674@fiap.com.br</p>
+          </div>
+          <div>
+            <p>Nome: Arthur Palacio</p>
+            <p>Telefone: (11) 98882-7148</p>
+            <p>Email: rm573441@fiap.com.br</p>
+          </div>
+          <div>
+            <p>Nome: Thiago Andrade Silva Piedade</p>
+            <p>Telefone: (11) 96088-8170</p>
+            <p>Email: rm569741@fiap.com.br</p>
+          </div>
+        </div>
       </form>
     </main>
     <footer>
-        <p>Todos os direitos reservador &copy; - Por todos os integrantes da equipe</p>
+        <p>Todos os direitos reservados &copy; - Por todos os integrantes da equipe</p>
     </footer>
     <script src="../js/contato.js"></script>
 </body>
