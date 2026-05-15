@@ -16,7 +16,7 @@
 
 .card_container {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);    /* sempre 2 colunas */
+    grid-template-columns: repeat(4, 1fr);    /* sempre 2 colunas */
     gap: 20px;                                /* espaço entre os cards */
     justify-items: center;                   /* centraliza os cards em cada coluna */
 }
